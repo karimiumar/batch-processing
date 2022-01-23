@@ -9,7 +9,7 @@ public class PersonItemProcessor implements ItemProcessor<Person, Person>{
     private static final Logger LOGGER = LoggerFactory.getLogger(PersonItemProcessor.class);
 
     @Override
-    public Person process(Person person) throws Exception {
+    public Person process(Person person) {
         final String firstName = person.firstName().toUpperCase();
         final String lastName = person.lastName().toUpperCase();
         final Person transformedPerson = Person.of(lastName, firstName);
