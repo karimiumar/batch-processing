@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.umar.apps</groupId>
-	<artifactId>batch-processing</artifactId>
+	<artifactId>spring-batch-processing</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>batch-processing</name>
 	<description>Spring Batch Processing Demo project for Spring Boot</description>
